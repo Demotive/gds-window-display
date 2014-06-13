@@ -1,15 +1,1 @@
-@font-face {
-  font-family: GDS-Logo;
-  src: local("HelveticaNeue"), local("Helvetica Neue"), local("Arial"), local("Helvetica");
-}
-@-ms-viewport {
-  width: device-width;
-}
-@-o-viewport {
-  width: device-width;
-}
-body {
-  margin: 0;
-  background-color: #0b0c0c;
-  color: white;
-}
+@font-face{font-family:GDS-Logo;src:local("HelveticaNeue"),local("Helvetica Neue"),local("Arial"),local("Helvetica")}@-ms-viewport{width:device-width}@-o-viewport{width:device-width}html,body{width:100%;height:100%}body{padding:0;margin:0;font-family:"nta", Arial, sans-serif;line-height:1;color:#fff;background-color:#0b0c0c;text-rendering:opitimizeLegibility}.index ul{margin:0;list-style:none}.index a{color:#fff}main{display:block;width:100%;height:100%}.numbers{position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);font-size:540px;font-weight:bold;text-align:center}.pink-black{background-color:#d53880}.pink-black .numbers{color:#0b0c0c}.pink-white{background-color:#d53880}.pink-white .numbers{color:#fff}.turquoise-white{background-color:#28a197}.turquoise-white .numbers{color:#fff}.light-blue-white{background-color:#2b8cc4}.light-blue-white .numbers{color:#fff}.logo{position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);text-align:center;font-size:350px;font-weight:bold;height:350px;line-height:350px}.logo img{position:relative;top:20px;width:395px;padding-right:6px;display:inline;line-height:inherit}

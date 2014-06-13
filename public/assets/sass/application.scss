@@ -1,8 +1,102 @@
 @import '_colours';
 @import '_typography';
 
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
 body {
+  padding: 0;
   margin: 0;
-  background-color: $black;
+  font-family: "nta", Arial, sans-serif;
+  line-height: 1;
   color: $white;
+  background-color: $black;
+  text-rendering: opitimizeLegibility;
+}
+
+.index {
+  ul {
+    margin: 0;
+    list-style: none;
+  }
+  a {
+    color: $white;
+  }
+}
+
+main {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ******************************************************** */
+
+.numbers {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 540px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.pink-black {
+  background-color: $pink;
+  .numbers {
+    color: $black;
+  }
+}
+
+.pink-white {
+  background-color: $pink;
+  .numbers {
+    color: $white;
+  }
+}
+
+.turquoise-white {
+  background-color: $turquoise;
+  .numbers {
+    color: $white;
+  }
+}
+
+.light-blue-white {
+  background-color: $light-blue;
+  .numbers {
+    color: $white;
+  }
+}
+
+/* ******************************************************** */
+
+/* GOV.UK logo */
+
+.logo {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+
+  font-size: 350px;
+  font-weight: bold;
+  height: 350px;
+  line-height: 350px;
+
+  img {
+    position: relative;
+    top: 20px;
+    width: 395px;
+    padding-right: 6px;
+    display: inline;
+    line-height: inherit;
+  }
+
 }
