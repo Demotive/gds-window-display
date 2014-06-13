@@ -22,11 +22,13 @@ module.exports = function(grunt) {
 
     // CSS
     sass: {
-      options: {
-        style: 'expanded'
-      },
-      files: {
-        '<%= globalConfig.cssFile %>': '<%= globalConfig.scssFile %>'
+      dist: {
+        options: {
+          style: 'expanded'
+        },
+        files: {
+          '<%= globalConfig.cssFile %>': '<%= globalConfig.scssFile %>'
+        }
       }
     },
 

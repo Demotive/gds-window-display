@@ -11,8 +11,8 @@ body {
   margin: 0;
   font-family: "nta", Arial, sans-serif;
   line-height: 1;
-  color: $white;
-  background-color: $black;
+  color: $black;
+  background-color: $white;
   text-rendering: opitimizeLegibility;
 }
 
@@ -22,7 +22,7 @@ body {
     list-style: none;
   }
   a {
-    color: $white;
+    color: $black;
   }
 }
 
@@ -43,34 +43,6 @@ main {
   font-size: 540px;
   font-weight: bold;
   text-align: center;
-}
-
-.pink-black {
-  background-color: $pink;
-  .numbers {
-    color: $black;
-  }
-}
-
-.pink-white {
-  background-color: $pink;
-  .numbers {
-    color: $white;
-  }
-}
-
-.turquoise-white {
-  background-color: $turquoise;
-  .numbers {
-    color: $white;
-  }
-}
-
-.light-blue-white {
-  background-color: $light-blue;
-  .numbers {
-    color: $white;
-  }
 }
 
 /* ******************************************************** */
